@@ -4,6 +4,9 @@
 
 前端基于 socket.io.js
 
+图：
+![demo.png](./static/demo.png)
+
 ## 1、目前的功能
 
 - 连接并加入聊天室
