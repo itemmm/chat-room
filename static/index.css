@@ -1,0 +1,71 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+    border:0;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+
+.chat-records-container{
+    border-right: 1px solid rgb(195,195,195);
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+
+.record{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.record-avatar{
+    margin-left: 10px;
+    border-radius:50%;
+    background-color: #C0C4CC;
+    width:50px;
+    height:50px;
+}
+.record-info-container{
+    flex:1;
+}
+.record-info{
+    margin-right: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.record-message{
+    width:auto;
+    display:inline-block !important;
+    border-radius:0 20px 20px 20px;
+    border:1px solid black;
+    padding:10px;
+}
+
+.info-container{
+    flex: 1;
+    width:100%;
+    margin-left: 20px;
+}
+
+.input-nickname{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.textarea-message{
+    width:100%;
+    resize: none;
+    margin-top: 20px;
+}
+
+.btn-send{
+    text-align: right;
+}

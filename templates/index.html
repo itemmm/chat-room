@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室 Demo</title>
+    <link rel="stylesheet" href="../static/index.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="chat-records-container" id="records">
+
+        </div>
+
+        <div class="info-container">
+            <input class="input-nickname" type="text" name="nickname" id="nickname" placeholder="请输入昵称..." />
+
+            <textarea class="textarea-message" rows="30" id="message" placeholder="请输入要发送的信息..."></textarea>
+
+            <div class="btn-send">
+                <button onclick="send()">发送</button>
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha512-v8ng/uGxkge3d1IJuEo6dJP8JViyvms0cly9pnbfRxT6/31c3dRWxIiwGnMSWwZjHKOuY3EVmijs7k1jz/9bLA==" crossorigin="anonymous"></script>
+<script src="../static/index.js"></script>
+</body>
+</html>
